@@ -1,5 +1,5 @@
 <template>
-    <a :href="installLink" class="bg-primary-600 text-white px-8 py-3 rounded-lg hover:bg-primary-700 transition-colors">Get Started</a>
+    <a :href="installLink" class="bg-primary-600 text-white px-8 py-3 rounded-xl hover:bg-primary-700 transition-colors">Get Started</a>
   </template>
   
   <script setup lang="ts">

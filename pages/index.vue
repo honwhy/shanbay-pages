@@ -8,7 +8,7 @@
         <ClientOnly>
           <BrowserInstallLink />
         </ClientOnly>
-        <a href="https://github.com/honwhy/shanbay-ext" class="border border-gray-300 dark:border-gray-600 px-8 py-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Learn More</a>
+        <a href="https://github.com/honwhy/shanbay-ext" class="border border-gray-300 dark:border-gray-600 px-8 py-3 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Learn More</a>
         
       </div>
     </section>
