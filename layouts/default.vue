@@ -1,12 +1,9 @@
 <template>
   <div class="min-h-screen transition-colors duration-300" :class="{
-    'bg-white text-gray-900': !isDarkMode,
-    'bg-gray-900 text-white': isDarkMode
+    'bg-gradient-to-b from-primary-600 to-primary-700 text-white': !isDarkMode,
+    'bg-gradient-to-b from-primary-300 to-primary-50 text-gray-900': isDarkMode
   }">
-    <header class="fixed w-full top-0 z-50 backdrop-blur-sm bg-opacity-80" :class="{
-      'bg-white': !isDarkMode,
-      'bg-gray-900': isDarkMode
-    }">
+    <header class="fixed w-full top-0 z-50 backdrop-blur-sm bg-opacity-80">
       <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
         <div class="flex items-center space-x-4">
           <img src="/logo.svg" class="w-8 h-8 text-primary-600" alt="Shanbay Logo" />
@@ -57,6 +54,7 @@ const currentYear = new Date().getFullYear()
 :root {
   --color-primary-600: #5DBBA1;
   --color-primary-700: #4DA890;
+  --color-primary-50: #f8fafc;
 }
 
 html {
